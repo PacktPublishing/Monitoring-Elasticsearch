@@ -1,0 +1,9 @@
+# Monitoring Elasticsearch
+# By: Dan Noble, Mahmoud Lababidi
+
+# Sample elasticsearch.yml file
+# On Ubuntu or RedHat Linux, put this file in /etc/elasticsearch/elasticsearch.yml
+
+cluster.name: twitter_development
+node.name: elasticsearch-node-01
+bootstrap.mlockall: true

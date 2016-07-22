@@ -1,0 +1,5 @@
+# Monitoring Elasticsearch
+# By: Dan Noble, Mahmoud Lababidi
+
+ES_HEAP_SIZE=8g
+MAX_LOCKED_MEMORY=unlimited

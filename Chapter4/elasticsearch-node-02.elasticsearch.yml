@@ -1,0 +1,21 @@
+# Monitoring Elasticsearch
+# By: Dan Noble, Mahmoud Lababidi
+
+# Sample elasticsearch.yml file for host elasticsearch-node-02
+# On Ubuntu or RedHat Linux, put this file in /etc/elasticsearch/elasticsearch.yml
+
+
+cluster.name: my_elasticsearch_cluster
+node.name: "elasticsearch-node-02"
+discovery.zen.ping.multicast.enabled: false
+discovery.zen.ping.unicast.hosts: ["elasticsearch-node-01", "elasticsearch-node-03"]
+index.routing.allocation.disable_allocation: false
+cluster.routing.allocation.enable : all
+
+# New in Chapter 4: Marvel monitoring host
+marvel.agent.exporter.es.hosts: ["elasticsearch-marvel-01:9200"]
+
+# New in Chapter 4: Uncomment these lines to enable the Marvel "Sense" dashboard
+#http.cors.enabled: true
+#http.cors.allow-origin: /.*/  
+#http.cors.allow-credentials: true 

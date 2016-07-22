@@ -1,0 +1,14 @@
+# Monitoring Elasticsearch
+# By: Dan Noble, Mahmoud Lababidi
+
+# Sample elasticsearch.yml file for host elasticsearch-marvel-01
+# On Ubuntu or RedHat Linux, put this file in /etc/elasticsearch/elasticsearch.yml
+
+
+index.routing.allocation.disable_allocation: false
+cluster.routing.allocation.enable : all
+marvel.agent.enabled: false
+cluster.name: my_monitoring_cluster
+node.name: elasticsearch-marvel-01
+bootstrap.mlockall: true
+discovery.zen.ping.multicast.enabled: false
