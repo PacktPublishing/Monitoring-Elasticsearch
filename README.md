@@ -2,7 +2,7 @@
 Monitoring Elasticsearch by Packt Publishing
 
 ##Instructions and Navigation
-This is the code repository for [Monitoring Elasticsearch](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781786464477), published by Packt. It contains all the supporting project files necessary to work through the book from start to finish. The code files are organized according to the chapters in the book. These code samples will work on any machine running Linux, Mac OS X, or Windows. Even though they are written and tested on Python 2.7, you can easily run them on Python 3.x with minimal changes.
+This is the code repository for [Monitoring Elasticsearch](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781786464477), published by Packt. It contains all the supporting project files necessary to work through the book from start to finish. The code files are organized according to the chapters in the book.
 
 
 To follow along with the examples in the book, you'll need a real or virtualized three-node Elasticsearch cluster. You may optionally want two other nodes to run Marvel and Nagios, covered in Chapter 4, Marvel Dashboard and Chapter 5, System Monitoring respectively. It is possible to run Marvel and Nagios on the same host as a node in your Elasticsearch cluster, but you shouldn't do this in a production cluster. Check out VMWare Player (https://www.vmware.com/products/player) and VirtualBox (https://www.virtualbox.org/wiki/Downloads) for standing up your own virtual five-node environment or Amazon EC2 (https://aws.amazon.com/ec2/) for building a cluster in the cloud.
