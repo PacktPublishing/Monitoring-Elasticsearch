@@ -1,0 +1,1 @@
+less my_elasticsearch_cluster_index_search_slowlog.log.2016-04-28

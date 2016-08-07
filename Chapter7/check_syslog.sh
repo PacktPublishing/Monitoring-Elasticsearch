@@ -1,0 +1,1 @@
+sudo tail -n200 /var/log/syslog
