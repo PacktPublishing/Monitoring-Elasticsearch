@@ -28,7 +28,3 @@ Elasticsearch cat API and how to use Nagios to perform general system monitoring
 * [Elasticsearch Cookbook 2e](https://www.packtpub.com/networking-and-servers/elasticsearch-cookbook-second-edition)
 * [Elasticsearch Essentials](https://www.packtpub.com/big-data-and-business-intelligence/elasticsearch-essentials)
 * [Elasticsearch Indexing](https://www.packtpub.com/big-data-and-business-intelligence/elasticsearch-indexing)
-### Download a free PDF
-
- <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to download a free PDF copy of this book.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/9781784397807">https://packt.link/free-ebook/9781784397807 </a> </p>
